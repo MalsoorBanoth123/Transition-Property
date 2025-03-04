@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+div{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../asserts/Image/left.png),
+    url(../../asserts/Image/right.png),
+    url(../../asserts/Image/left.png),
+    url(../../asserts/Image/right.png),
+
+    url(/asserts/Image/mountain\ dark.png),
+    url(../../asserts/Image/moon.png),
+    url(../../asserts/Image/space.png);
+    background-size: 50% 70%,
+    50% 70%,
+    45% 70%,
+    45% 70%,
+    50% 80%,
+    200px 200px,
+    cover;
+    background-position: -5% 130%,
+     100% 110%,
+    25% 120% ,
+     65% 120%,
+    50% 300%,
+    70% 130%,
+    center center;
+    background-repeat: no-repeat;
+    transition-property:background-position ;
+    transition-duration: 2s;
+}
+div:hover{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../asserts/Image/left.png),
+    url(../../asserts/Image/right.png),
+    url(../../asserts/Image/left.png),
+    url(../../asserts/Image/right.png),
+    url(/asserts/Image/mountain\ dark.png),
+    url(../../asserts/Image/moon.png),
+    url(../../asserts/Image/space.png);
+    background-size: 50% 70%,
+    50% 70%,
+    45% 70%,
+    45% 70%,
+     50% 80%,
+     200px 200px,
+    cover;
+    background-position: -40% 130%,
+     145% 110%,
+    5% 120% ,
+     100% 120%,
+     40% 250%,
+     40% 20%,
+     top center;
+    background-repeat: no-repeat;
+}
